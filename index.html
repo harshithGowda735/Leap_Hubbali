@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackHaul Ai - APMC AMARGOL</title>
+    <Meta name ="description"
+    content="BackHaul Ai connects empty tracks with return load APMC AMARGOL,,hubballi through natural kannada voice . zero broker commision">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet"
+    href="preconnect"
+          href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap">
+     <link
+     href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?y=6">
+    <link rel="stylesheet" href="face-login.css">
+
+    </head> 
+<body>
+    <div class="ov" id="authOverlay">
+        <div class="lang-toggle-abs" id="authlang"></div>
+        <div class="ov-card" id="authCard">
+            <div class="a-brand">BlackHual AI</div>
+            <h2 id="authTitle" data-i18n="auth.titleLogin"> Welcome Back </h2>
+            <form id="authForm">
+                <input id="authName" type="text" data-i18n-placeholder="Full name" data-118n-placeholder="auth.nameHolder" autocomplete="name" hidden>
+                <input id="authEmail" type="email" data-i18n-placeholder="email" data-118n-placeholder="auth.emailHolder" autocomplete="email" required>
+                  <input id="authpassword" type="password" data-i18n-placeholder="password" data-118n-placeholder="auth.passHolder" autocomplete="current-password" minlength="6" required>
+                  <div id="authErr" class="a-err"></div>
+                  <div id="authinfo" class="a.info"></div>
+                  <button
+                  class="a-btn"
+                  id="authsubmit"
+                  type="submit"
+                  data-i18n="auth.loginBtn">
+                Login</button>
+            </form>
+            <div class="a-or" data-i18n="auth.or">or</div>
+            <button
+            class="a-btn a-google"
+            id="authGoogle"
+            type="button"
+            data-i18n="auth.googleBtn"> Continue with Google
+        </button>
+        <div class="a-foot">
+            <span id="authSwitchText"
+            data-i18n="auth.noAccount"></span>
+            <button
+            class="a-link"
+            id="authSwitch"
+            type="button"
+            ></button>
+            <br>
+            <button
+            class="a-link"
+            id="authForget"
+            type="button"
+            data-i18n="auth.forgotBtn">
+        Forget password</button>
+
+        </div>
+      
+        </div>
+    </div>
+
+    <div  class="ov" id="profileoverlay" hidden>
+        <div class="lang-toggle-abs" id="profileLang"></div>
+        <div class="ov-card" id="profileCard">
+            <div class="a-brand">
+                BackHaul Ai
+            </div>
+            <div
+            style="
+            font-size:11px;
+            font-weight: 800;
+            color: #12805c;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+            ">
+            APMC Amargol , Hubbali</div>
+            <h2 data-i18n="prof.title"> Choose your Role</h2>
+            <form id="profileform"novalidate>
+                <label>
+                    <span data-i18n="prof.nameLabel">
+                        Your Name/company
+                    </span>
+                    <input id="pName"
+                    type="text"
+                    placeholder="e.g.Ramesh Patil"
+                    data-118n-placeholder="prof.nameHolder"
+                    autocomplete="name">`
+                    
+                </label>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
